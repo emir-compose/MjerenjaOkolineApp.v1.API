@@ -1,0 +1,6 @@
+@MjerenjaOkolineApp.v1.API_HostAddress = http://localhost:5109
+
+GET {{MjerenjaOkolineApp.v1.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
