@@ -31,6 +31,11 @@ if (app.Environment.IsDevelopment())
 
 app.UseAuthorization();
 
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
+app.MapControllers();
+
 app.MapControllers();
 
 app.Run();
